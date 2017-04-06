@@ -3,8 +3,8 @@
 from facepp import API
 from facepp import File
 import os
-API_KEY = '9ffeb1311042de5b6cfec336049b1f16'
-API_SECRET = 'k7ukJVKulj9aVjV5v8lJ1uN1pmPzm4IX'
+API_KEY = ''
+API_SECRET = ''
 user_api=API(API_KEY,API_SECRET)
 
 def get_person_name(user_dir):

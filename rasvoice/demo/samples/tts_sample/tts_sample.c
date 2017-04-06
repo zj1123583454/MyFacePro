@@ -147,7 +147,7 @@ int tts_begin(const char* pytext , const char* pyfilename)
 	const char* text                 =  pytext;//合成文本
 
 	/* 用户登录 */
-	ret = MSPLogin("Badprogrammer","1123583454zj~", login_params);//第一个参数是用户名，第二个参数是密码，第三个参数是登录参数，用户名和密码可在http://open.voicecloud.cn注册获取
+	ret = MSPLogin("","", login_params);//第一个参数是用户名，第二个参数是密码，第三个参数是登录参数，用户名和密码可在http://open.voicecloud.cn注册获取
 	if (MSP_SUCCESS != ret)
 	{
 		printf("MSPLogin failed, error code: %d.\n", ret);

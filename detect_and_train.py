@@ -6,8 +6,8 @@ import os,sys
 from my_module import *
 from time import ctime
 user_face_id=[]
-API_KEY ="9ffeb1311042de5b6cfec336049b1f16"
-API_SECRET ="k7ukJVKulj9aVjV5v8lJ1uN1pmPzm4IX"
+API_KEY =""
+API_SECRET =""
 user_api=API(API_KEY,API_SECRET)
 
 user_dir='./Person'
